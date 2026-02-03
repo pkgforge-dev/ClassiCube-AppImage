@@ -23,7 +23,7 @@ echo "Making nightly build of ClassiCube..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/UnknownShadow200/ClassiCube"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone --recursive --depth 1 "$REPO" ./ClassiCube
+git clone "$REPO" ./ClassiCube
 echo "$VERSION" > ~/version
 
 cd ./ClassiCube
