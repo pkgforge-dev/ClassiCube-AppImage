@@ -30,4 +30,4 @@ cd ./ClassiCube
 make -j$(nproc) RELEASE=1 BUILD_SDL3=1
 
 mv -v "ClassiCube" /usr/bin/classicube
-cp -r misc/CCicon.png /usr/share/classicube/CCicon.png
+cp -r misc/CCicon.png /usr/share/pixmaps/CCicon.png
