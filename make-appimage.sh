@@ -14,6 +14,8 @@ export DEPLOY_OPENGL=1
 quick-sharun /usr/bin/classicube
 
 # Additional changes can be done in between here
+mkdir -p ./AppDir/share/fonts/TTF
+cp -v /usr/share/fonts/TTF/DejaVuSans.ttf ./AppDir/share/fonts/TTF
 
 # Turn AppDir into AppImage
 quick-sharun --make-appimage
