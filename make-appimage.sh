@@ -10,7 +10,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun ./AppDir/bin/classicube
+quick-sharun ./AppDir/bin/ClassiCube
 
 # Additional changes can be done in between here
 mkdir -p ./AppDir/share/fonts/TTF
