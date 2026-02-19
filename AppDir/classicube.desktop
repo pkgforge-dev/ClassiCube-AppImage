@@ -2,7 +2,7 @@
 Name=ClassiCube
 GenericName=ClassiCube
 Comment=A game based on the original Minecraft Classic.
-Exec=classicube
+Exec=ClassiCube
 Icon=CCicon
 Terminal=false
 Type=Application
