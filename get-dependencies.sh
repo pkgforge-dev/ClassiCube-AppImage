@@ -27,8 +27,8 @@ VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
 git clone "$REPO" ./ClassiCube
 echo "$VERSION" > ~/version
 
+mkdir -p ./AppDir/bin
 cd ./ClassiCube
 make -j$(nproc) RELEASE=1 BUILD_SDL3=1
-
-mv -v "ClassiCube" /usr/bin/classicube
-cp -r misc/CCicon.png /usr/share/pixmaps/CCicon.png
+mv -v "ClassiCube" ./AppDir/bin
+cp -r misc/CCicon.png ./AppDir
