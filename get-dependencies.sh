@@ -30,5 +30,5 @@ echo "$VERSION" > ~/version
 mkdir -p ./AppDir/bin
 cd ./ClassiCube
 make -j$(nproc) RELEASE=1 BUILD_SDL3=1
-mv -v "ClassiCube" ./AppDir/bin
-cp -r misc/CCicon.png ./AppDir
+mv -v "ClassiCube" ../AppDir/bin
+cp -r misc/CCicon.png ../AppDir
