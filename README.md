@@ -17,8 +17,6 @@
 
 </div>
 
-## ⚠️ Doesn't work on arm64 [musl](https://github.com/ClassiCube/ClassiCube/issues?q=musl) systems ⚠️
-
 ---
 
 AppImage made using [sharun](https://github.com/VHSgunzo/sharun) and its wrapper [quick-sharun](https://github.com/pkgforge-dev/Anylinux-AppImages/blob/main/useful-tools/quick-sharun.sh), which makes it extremely easy to turn any binary into a portable package reliably without using containers or similar tricks. 
