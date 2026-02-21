@@ -17,7 +17,7 @@
 
 </div>
 
-## ⚠️ Doesn't work with arm64 [musl](https://github.com/ClassiCube/ClassiCube/issues?q=musl) systems ⚠️
+## ⚠️ Doesn't work on arm64 [musl](https://github.com/ClassiCube/ClassiCube/issues?q=musl) systems ⚠️
 
 ---
 
