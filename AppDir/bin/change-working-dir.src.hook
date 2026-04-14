@@ -1,4 +1,4 @@
 #!/bin/sh
-dir=${XDG_DATA_HOME:-~/.local/share}/classicube
+dir=$DATADIR/classicube
 mkdir -p "$dir"
 cd "$dir"
