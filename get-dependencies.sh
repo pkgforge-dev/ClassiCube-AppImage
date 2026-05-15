@@ -31,4 +31,4 @@ mkdir -p ./AppDir/bin
 cd ./ClassiCube
 make -j$(nproc) RELEASE=1 BUILD_SDL3=1
 mv -v "ClassiCube" ../AppDir/bin
-cp -f misc/CCicon.png ../AppDir
+cp -v misc/CCicon.png ../AppDir
