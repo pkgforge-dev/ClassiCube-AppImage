@@ -12,7 +12,6 @@ export DEPLOY_OPENGL=1
 # Deploy dependencies
 quick-sharun ./AppDir/bin/ClassiCube /usr/lib/libcrypto.so* /usr/lib/libopenal.so*
 
-# Additional changes can be done in between here
 mkdir -p ./AppDir/share/fonts/TTF
 cp -v /usr/share/fonts/TTF/DejaVuSans.ttf ./AppDir/share/fonts/TTF
 
