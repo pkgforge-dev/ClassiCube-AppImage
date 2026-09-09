@@ -19,7 +19,7 @@ echo "Building ClassiCube..."
 echo "---------------------------------------------------------------"
 REPO="https://github.com/UnknownShadow200/ClassiCube"
 VERSION="$(git ls-remote "$REPO" HEAD | cut -c 1-9 | head -1)"
-git clone "$REPO" ./ClassiCube
+git clone --depth 1 "$REPO" ./ClassiCube
 echo "$VERSION" > ~/version
 
 mkdir -p ./AppDir/bin
