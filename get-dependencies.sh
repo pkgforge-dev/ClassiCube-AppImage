@@ -6,10 +6,7 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm \
-    openal     \
-    sdl3       \
-    ttf-dejavu
+pacman -Syu --noconfirm openal sdl3 ttf-dejavu
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
